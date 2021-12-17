@@ -1,0 +1,180 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   font-family: 'Raleway', sans-serif;
+   font-family: 'Readex Pro', sans-serif;
+}
+header{
+   background: linear-gradient(#e05cc3, #454c95);
+   max-width: 100%;
+}
+.navbar{
+   padding: 50px;
+   font-size: 25px;
+   display: flex;
+}
+.logo a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+.logo i{
+   color: tomato;
+   font-size: 30px;
+}
+.navtext{
+   margin-left: auto;
+   text-indent: 30px;
+}
+.navtext a{
+   text-decoration: none;
+   color: white;
+}
+.navtext ul{
+   list-style: none;
+}
+.navtext li{
+   display: inline-block;
+}
+.headertxt{
+   margin: auto;
+   text-align: center;
+   font-size: 25px;
+   color: white;
+   padding: 30px 100px 100px 100px;
+}
+.section{
+   width: 1300px;
+   max-width: 100%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 40px;
+}
+.regform{
+   width: 60%;
+   flex-wrap: wrap;
+}
+input{
+   width: 100%;
+   padding: 15px;
+}   
+select{
+   width: 100%;
+   padding: 15px;
+}
+.form{
+   padding: 10px 10px ;
+   width: 50%;
+}
+.allinputs{
+   width:100%;
+   padding: 10px 10px ;
+   display: flex;
+   flex-wrap: wrap;
+}
+  .msg{
+     width: 100%;
+     padding: 10px;
+}
+  .msg input{
+     height: 200px;
+     padding: 0 0 150px 15px;
+}
+.button{
+  margin: 0px 20px;
+  background-color: rgb(255, 123, 0);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.col{
+  width: 40%;
+  padding: 20px;
+}
+.choose{
+   padding: 10px;
+}
+.selectbtn{
+  padding: 15px 35px ;
+  background-color: white;
+}
+.selectbtn:hover{
+  background-color: rgb(40, 88, 165);
+  color: white;
+}
+.coltext{
+  padding: 20px 0;
+  font-size: 20px;
+  color: rgb(66, 66, 66);
+}
+.info{
+  display: flex;
+  padding: 40px 10px;
+}
+.info i{
+  font-size: 30px;
+}
+.info h2{
+  padding: 0 20px;
+  font-size: 20px;
+}
+.fa-twitter{
+color: rgb(75, 204, 255);
+}
+.fa-facebook{
+  color: rgb(26, 36, 126);
+}
+
+@media (max-width:1250px){
+   .regform{
+       width: 100%;
+       margin:auto;
+       padding: 20px 0;
+   }
+.headertxt{
+   font-size: 20px;
+}
+   .col{
+       width: 100%;
+       text-align: center;
+       margin: auto;
+   }
+   .info{
+       justify-content: center;
+   }
+   .selectbtn{
+      background-color: white;
+      width: 100%;
+      margin: 10px 0;
+    }
+}
+@media (max-width:800px){
+   .headertxt{
+      font-size: 15px;
+      width: 100%;
+   }
+   .navbar{
+      display: none;
+   }
+   .selectbtn{
+      width: 100%;
+    }
+}
+@media (max-width:320px){
+   .headertxt{
+      width: 100%;
+   }
+   .navbar{
+      display: none;
+   }
+   .selectbtn{
+      width: 100%;
+      font-size: 5px;
+    }
+    .info h2{
+       display: none;
+    }
+}
